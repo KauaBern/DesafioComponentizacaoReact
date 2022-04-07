@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
+
 import { MovieCard } from '../components/MovieCard';
+
 import { api } from '../services/api';
 
 interface MovieProps {
